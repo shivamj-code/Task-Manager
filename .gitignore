@@ -1,0 +1,97 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+client/dist/
+client/build/
+server/dist/
+dist/
+build/
+
+# Test and coverage output
+coverage/
+**/coverage/
+.nyc_output/
+junit.xml
+test-results/
+
+# Vite and frontend caches
+client/.vite/
+client/node_modules/.vite/
+.vite/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+.cache/
+**/.cache/
+
+# Uploads and generated local files
+uploads/
+server/uploads/
+server/tmp/
+server/temp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+
+# Package manager metadata
+.npm/
+.yarn/
+.pnpm-store/
+
+# Optional package manager build/cache folders
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Deployment output
+.vercel/
+.netlify/
+
+# Misc local files
+*.local
+*.bak
+*.orig
